@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thejuswini Abirami K — Computer Science Engineering Student</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Portfolio of Thejuswini Abirami K, a Computer Science Engineering student passionate about software development, algorithms, and emerging technologies. Explore projects, skills, certifications and achievements.">
+  <meta name="keywords" content="Thejuswini Abirami K, Computer Science Engineering,Student Portfolio, Software Developer, Problem Solver">
+  <meta name="author" content="Thejuswini Abirami K">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Thejuswini Abirami K — Computer Science Engineering Student">
+  <meta property="og:description" content="Aspiring Engineer, passionate about crafting solutions for tomorrow. Explore my skills, education, certifications and achievements.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="favicon.svg">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23081F5C'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%234DA8DA' font-family='monospace'%3ET%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard/screen reader users -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Scroll progress indicator -->
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgressBar"></span></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Primary navigation">
+      <a href="#home" class="nav-logo" aria-label="Thejuswini — home">
+        Thejuswini
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link" data-section="achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-pattern"></div>
+        <div class="glow-orb glow-orb--1"></div>
+        <div class="glow-orb glow-orb--2"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-role">
+          <span id="typedText"></span><span class="type-cursor">|</span>
+        </p>
+
+        <h1 class="hero-name">Thejuswini Abirami K</h1>
+        <p class="hero-tagline">Aspiring Engineer <span class="dot-sep">•</span> Passionate about crafting solutions for tomorrow</p>
+
+        <p class="hero-summary">
+          I am a Computer Science Engineering student with a strong passion for software development,
+          algorithms, and emerging technologies. I enjoy solving real-world problems through technology,
+          continuously learning new skills, collaborating with teams, and building innovative software
+          solutions that create meaningful impact.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <span>Let's Connect</span>
+          </a>
+          <a href="#certifications" class="btn btn-outline">View Certifications</a>
+        </div>
+      </div>
+
+      <button class="scroll-indicator" id="scrollIndicator" aria-label="Scroll to about section">
+        <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+      </button>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="section" id="about">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">Get to know me</p>
+        <h2 class="section-title reveal">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              
+               I am a Computer Science and Engineering student who enjoys solving problems through technology and continuously learning new skills.
+               I have a strong interest in software development. Whether it's participating in hackathons, working on innovative projects, 
+               or improving my programming and problem-solving skills, I embrace every opportunity to grow.
+            </p>
+            <p>
+              Beyond technology, I have a deep passion for poetry writing, which allows me to express my thoughts and emotions creatively. 
+              Writing has taught me to see things from different perspectives and has strengthened my communication and storytelling skills. 
+               I aspire to build meaningful technology while continuing to grow as a lifelong learner, creator, and problem solver.
+            </p>
+          </div>
+
+          <div class="about-meta reveal">
+            <div class="meta-card">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Tiruppur, Tamil Nadu, India</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-label">Currently</span>
+              <span class="meta-value">B.E. Computer Science Engineering</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-label">CGPA</span>
+              <span class="meta-value">8.08 / 10</span>
+            </div>
+            <!-- <div class="meta-card"> -->
+              <!-- <span class="meta-label">Focus Areas</span> -->
+              <!-- <span class="meta-value">Algorithms · Data Structures · Java</span> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION SECTION (vertical timeline) ============ -->
+    <section class="section section--alt" id="education">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">My journey</p>
+        <h2 class="section-title reveal">Education Timeline</h2>
+
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2024 — Present</span>
+              <h3 class="timeline-title">Bachelor of Engineering, Computer Science Engineering</h3>
+              <p class="timeline-org">SRM TRP Engineering College</p>
+              <p class="timeline-desc">
+                Focused on software development, algorithms, data structures, and emerging
+                technologies while actively participating in technical events and collaborative
+                projects.
+              </p>
+              <span class="timeline-badge">Current CGPA: 8.08</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Higher Secondary · 12th ·2024 </span>
+              <h3 class="timeline-title">Computer Science &amp; Mathematics</h3>
+              <p class="timeline-org">St. Joseph Matric Higher Secondary School</p>
+              <p class="timeline-desc">Specialized in Computer Science and Mathematics.</p>
+              <span class="timeline-badge">Scored 89.33%</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Secondary School · 10th ·2022</span>
+              <h3 class="timeline-title">Secondary School Education</h3>
+              <p class="timeline-org">St. Joseph Matric Higher Secondary School</p>
+              <span class="timeline-badge">Scored 87.4%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="section" id="skills">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">What I know</p>
+        <h2 class="section-title reveal">Skills</h2>
+
+        <h3 class="subsection-title reveal">Technical Skills</h3>
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <span class="skill-icon" aria-hidden="true">~</span>
+            <span class="skill-name">Java</span>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+            <span class="skill-name">HTML5</span>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon" aria-hidden="true">#</span>
+            <span class="skill-name">CSS3</span>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon" aria-hidden="true">⛁</span>
+            <span class="skill-name">SQL</span>
+          </div>
+        </div>
+
+        <h3 class="subsection-title reveal">Soft Skills</h3>
+        <div class="soft-skills-grid reveal">
+          <span class="soft-skill-pill">Problem Solving</span>
+          <span class="soft-skill-pill">Critical Thinking</span>
+          <span class="soft-skill-pill">Communication</span>
+          <span class="soft-skill-pill">Team Collaboration</span>
+         <span class="soft-skill-pill">Adaptability</span> 
+        <!-- <span class="soft-skill-pill">Time Management</span> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS SECTION ============ -->
+    <section class="section section--alt" id="certifications">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">Always learning</p>
+        <h2 class="section-title reveal">Certifications</h2>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <h3 class="cert-title">Cyber Security</h3>
+            <p class="cert-provider">Elewayte Certification Program</p>
+            <span class="cert-date">Completed May 2025</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <h3 class="cert-title">Data Fundamentals</h3>
+            <p class="cert-provider">IBM SkillsBuild</p>
+            <span class="cert-date">Completed</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <h3 class="cert-title">Data Structures in C</h3>
+            <p class="cert-provider">Simplilearn</p>
+            <span class="cert-date">Completed</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <h3 class="cert-title">Data Science</h3>
+            <p class="cert-provider">Simplilearn</p>
+            <span class="cert-date">Completed</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <h3 class="cert-title">Programming in Java</h3>
+            <p class="cert-provider">NPTEL</p>
+            <span class="cert-date">Completed</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS SECTION ============ -->
+    <section class="section" id="achievements">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">Beyond the classroom</p>
+        <h2 class="section-title reveal">Technical Competitions &amp; Achievements</h2>
+
+        <div class="achievement-grid">
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🚀</div>
+            <h3 class="achievement-title">Smart India Hackathon</h3>
+            <p class="achievement-desc">Presented the AI DPR Report Analyser solution.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🏆</div>
+            <h3 class="achievement-title">2nd Place</h3>
+            <p class="achievement-desc">Secured 2nd place in an intra-college technical competition.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">⚡</div>
+            <h3 class="achievement-title">Competition Participant</h3>
+            <p class="achievement-desc">Active participant in technical competitions and collaborative projects.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🌐</div>
+            <h3 class="achievement-title">Etherion Club</h3>
+            <p class="achievement-desc">Active member contributing to club activities and initiatives.</p>
+          </article>
+        </div>
+
+        <h3 class="subsection-title reveal" style="margin-top:4rem;">Languages</h3>
+        <div class="language-grid reveal">
+          <div class="language-card">
+            <h4 class="language-name">English</h4>
+            <p class="language-level">Professional Proficiency</p>
+          </div>
+          <div class="language-card">
+            <h4 class="language-name">Tamil</h4>
+            <p class="language-level">Native Proficiency</p>
+          </div>
+          <div class="language-card">
+            <h4 class="language-name">Kannada</h4>
+            <p class="language-level">Elementary Proficiency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="section section--alt" id="contact">
+      <div class="section-container">
+        <p class="section-eyebrow reveal">Get in touch</p>
+        <h2 class="section-title reveal">Let's Connect</h2>
+        <p class="section-subtitle reveal">
+          Ready to collaborate on exciting projects and opportunities. Feel free to reach out
+          through any of the following platforms.
+        </p>
+
+        <div class="contact-grid reveal">
+          <a href="mailto:thejuswiniabirami786@gmail.com" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            </span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">thejuswiniabirami786@gmail.com</span>
+          </a>
+
+          <a href="tel:6384477773" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 63844 77773</span>
+          </a>
+
+          <div class="contact-card contact-card--static">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Tiruppur, Tamil Nadu, India</span>
+          </div>
+        </div>
+
+        <div class="social-links reveal">
+          <a href="https://www.linkedin.com/in/thejuswini-k-453434329" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/ThejuswiniAbirami7" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.38-1.33-1.75-1.33-1.75-1.08-.75.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.82 2.8 1.3 3.48 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.6-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://leetcode.com/u/Thejuswini_K/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 2.5 6.7 9.3a3 3 0 0 0 0 4.24l4.95 4.95a3 3 0 0 0 4.24 0l1.77-1.77a1.1 1.1 0 0 0-1.56-1.56l-1.77 1.77a.8.8 0 0 1-1.13 0l-4.95-4.95a.8.8 0 0 1 0-1.13l6.8-6.8A1.1 1.1 0 1 0 13.5 2.5zM9.3 13.5a1.1 1.1 0 0 0 1.1 1.1h8.4a1.1 1.1 0 0 0 0-2.2h-8.4a1.1 1.1 0 0 0-1.1 1.1z"/></svg>
+            <span>LeetCode</span>
+          </a>
+          <a href="https://www.hackerrank.com/profile/thejuswiniabira2" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="HackerRank profile">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.6c-1.2 0-7.5 3.7-8.1 4.9-.7 1.3-.7 11.7 0 13 .6 1.2 6.9 4.9 8.1 4.9s7.5-3.7 8.1-4.9c.7-1.3.7-11.7 0-13-.6-1.2-6.9-4.9-8.1-4.9zM8.3 8.1h1.6v2.9h4.2V8.1h1.6v7.9h-1.6v-3.4H9.9v3.4H8.3V8.1z"/></svg>
+            <span>HackerRank</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">&copy; 2026 Thejuswini Abirami K</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/thejuswini-k-453434329" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://github.com/ThejuswiniAbirami7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.38-1.33-1.75-1.33-1.75-1.08-.75.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.82 2.8 1.3 3.48 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.6-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://leetcode.com/u/Thejuswini_K/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 2.5 6.7 9.3a3 3 0 0 0 0 4.24l4.95 4.95a3 3 0 0 0 4.24 0l1.77-1.77a1.1 1.1 0 0 0-1.56-1.56l-1.77 1.77a.8.8 0 0 1-1.13 0l-4.95-4.95a.8.8 0 0 1 0-1.13l6.8-6.8A1.1 1.1 0 1 0 13.5 2.5zM9.3 13.5a1.1 1.1 0 0 0 1.1 1.1h8.4a1.1 1.1 0 0 0 0-2.2h-8.4a1.1 1.1 0 0 0-1.1 1.1z"/></svg>
+        </a>
+        <a href="https://www.hackerrank.com/profile/thejuswiniabira2" target="_blank" rel="noopener noreferrer" aria-label="HackerRank">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.6c-1.2 0-7.5 3.7-8.1 4.9-.7 1.3-.7 11.7 0 13 .6 1.2 6.9 4.9 8.1 4.9s7.5-3.7 8.1-4.9c.7-1.3.7-11.7 0-13-.6-1.2-6.9-4.9-8.1-4.9zM8.3 8.1h1.6v2.9h4.2V8.1h1.6v7.9h-1.6v-3.4H9.9v3.4H8.3V8.1z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
